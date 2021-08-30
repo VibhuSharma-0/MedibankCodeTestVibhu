@@ -119,6 +119,7 @@ public class Headline extends Fragment {
         for(int i = 0;i<=all_sources.size()-1;i++){
             query_string.add(all_sources.get(i).getSource_id());
         }
+
         Collection<String> elements = query_string;
         return String.join(",", elements);
     }
