@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MedibankCodingTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_saved_items">Press and Hold to Delete Saved News.</string>
+    <string name="no_source_msg">Please Select News Source from the Sources Tab.</string>
+</resources>

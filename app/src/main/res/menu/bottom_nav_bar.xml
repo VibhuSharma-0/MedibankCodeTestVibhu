@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/headlines_nav"
+        android:title="Headlines" />
+    <item
+        android:id="@+id/sources_nav"
+        android:title="Sources" />
+    <item
+        android:id="@+id/saved_nav"
+        android:title="Saved" />
+</menu>

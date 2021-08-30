@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/headlines_nav">
+
+    <fragment
+        android:id="@+id/headlines_nav"
+        android:name="com.example.medibankcodingtest.Headline"
+        android:label="fragment_headlines"
+        tools:layout="@layout/fragment_headlines" >
+        <action
+            android:id="@+id/action_headlines_nav_to_webFragment2"
+            app:destination="@id/webFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sources_nav"
+        android:name="com.example.medibankcodingtest.Source"
+        android:label="fragment_sources"
+        tools:layout="@layout/fragment_sources" />
+    <fragment
+        android:id="@+id/saved_nav"
+        android:name="com.example.medibankcodingtest.Saved"
+        android:label="fragment_saved"
+        tools:layout="@layout/fragment_saved" >
+        <action
+            android:id="@+id/action_saved_nav_to_webFragment"
+            app:destination="@id/webFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.example.medibankcodingtest.WebFragment"
+        android:label="fragment_web"
+        tools:layout="@layout/fragment_web" />
+</navigation>
